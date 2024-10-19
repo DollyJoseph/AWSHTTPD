@@ -1,0 +1,104 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: rgb(72, 72, 72);
+}
+h1,
+h2,
+h3 {
+  color: rgb(43, 166, 190);
+}
+h1 {
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+}
+/* footer p { 
+  font-size: 16px;
+}*/
+#copyright {
+  font-size: 16px;
+}
+/* article header p { 
+  font-style: italic;
+} */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+.related-author {
+  font-weight: bold;
+}
+.related {
+  list-style: none;
+}
+.main-header {
+  background-color: rgb(165, 163, 158);
+}
+aside {
+  background-color: rgb(190, 198, 198);
+  border-top: 6px solid #8b8e97;
+  border-bottom: 6px solid #8b8e97;
+}
+body {
+  /* background-color: blueviolet; */
+}
+/* .first-list {
+  font-weight: bold;
+} */
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(2) {
+  color: red;
+}
+li:nth-child(odd) {
+  color: blueviolet;
+} */
+
+/* this wont work as first child of article is header */
+article p:first-child {
+  color: brown;
+}
+a:link {
+  color: blueviolet
+  text-decoration: none;
+}
+ a:visted {
+  color: blueviolet;
+} 
+a:hover {
+  color: cornflowerblue;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
